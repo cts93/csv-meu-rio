@@ -3,6 +3,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.headerContent {
+  background-image: url('copacabana-large.jpg');
+  height: 500px;
+}
+
 .headerContent .container {
   display: flex;
   justify-content: space-between;
