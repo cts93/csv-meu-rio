@@ -27,18 +27,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1f85a7;
 }
 
 #secondPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #4f733a;
 }
 
 #thirdPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #bc5819;
 }
 
 /* .mainContent-img-wrapper {
