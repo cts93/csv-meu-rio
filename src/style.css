@@ -9,10 +9,11 @@ body {
 .headerContent {
   background-image: url('copacabana-large.jpg');
   background-size: 100%;
-  height: 60vh;
+  height: 55vh;
 }
 
 .headerContent .container {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 1rem;
 }
