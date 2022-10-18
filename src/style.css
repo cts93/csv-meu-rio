@@ -20,17 +20,28 @@ body {
 
 .mainContent .container {
   display: flex;
+  flex-direction: column;
+}
+
+#firstPlace {
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
 }
 
-.mainContent-img-wrapper {
+#secondPlace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#thirdPlace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .mainContent-img-wrapper {
   max-width: 50vw;
   max-height: auto;
-}
-
-#thirdPlace-container {
-  display: flex;
-  align-items: center;
-}
+} */
