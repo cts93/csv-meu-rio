@@ -23,6 +23,11 @@ body {
   flex-direction: column;
 }
 
+.mainContent-img-wrapper img {
+  width: 49.45vw;
+  height: auto;
+}
+
 #firstPlace {
   display: flex;
   justify-content: space-between;
