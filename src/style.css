@@ -17,3 +17,20 @@ body {
   justify-content: space-between;
   padding: 2rem 1rem;
 }
+
+.mainContent .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mainContent-img-wrapper {
+  max-width: 50vw;
+  max-height: auto;
+}
+
+#thirdPlace-container {
+  display: flex;
+  align-items: center;
+}
