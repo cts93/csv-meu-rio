@@ -30,9 +30,20 @@ body {
 
 #headerContent-subtitle {
   display: block;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #222222;
   text-decoration: none;
+}
+
+.headerContent .menu a {
+  margin: 0 0.8em;
+  font-size: 1.4em;
+  color: #222222;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.headerContent #menu-home {
 }
 
 .mainContent-img-wrapper img {
@@ -63,23 +74,27 @@ body {
 }
 
 .text {
-  font-size: 1em;
-  margin: 0 4rem;
+  font-size: 1.5em;
+  margin: 0 3rem;
+  padding: 0 2rem;
   color: #eeeeee;
+  border-left: solid;
+  border-color: #eeeeee;
+}
+
+.second-text {
+  margin: 0 3rem 0;
 }
 
 .text p {
-  font-size: 3em;
+  font-size: 3.2em;
   font-weight: bold;
+  line-break: loose;
 }
 
 .text-description {
   margin-top: 1em;
-  padding-right: 10em;
-}
-
-.second-text {
-  margin: 0 5rem 0;
+  padding-right: 12em;
 }
 
 /* .mainContent-img-wrapper {
