@@ -105,7 +105,7 @@ body {
   padding: 1.5rem;
   background-color: #dddddd;
   color: #222222;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -117,4 +117,29 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.1rem;
+}
+
+#madeBy,
+#year,
+#toTop {
+  padding-bottom: 1rem;
+}
+
+#madeBy a,
+#toTop {
+  text-decoration: none;
+}
+
+#madeBy {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+#madeBy a {
+  color: #222222;
+}
+
+#toTop {
+  color: #0040ff;
 }
