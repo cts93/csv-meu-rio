@@ -8,13 +8,16 @@ body {
 
 .headerContent {
   background-image: url('copacabana-large.jpg');
-  background-size: 100%;
-  height: 55vh;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
 }
 
 .headerContent .container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  height: 100%;
   padding: 2rem 1rem;
 }
 
@@ -28,21 +31,21 @@ body {
   height: auto;
 }
 
-#firstPlace {
+.firstPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f85a7;
 }
 
-#secondPlace {
+.secondPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #4f733a;
 }
 
-#thirdPlace {
+.thirdPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
