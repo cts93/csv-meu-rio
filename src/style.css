@@ -16,8 +16,23 @@ body {
 .headerContent .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: auto;
-  padding: 2rem 1rem;
+  padding: 4rem 4rem;
+}
+
+#headerContent-title {
+  font-size: 4em;
+  color: #222222;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#headerContent-subtitle {
+  display: block;
+  font-size: 1em;
+  color: #222222;
+  text-decoration: none;
 }
 
 .mainContent-img-wrapper img {
