@@ -13,12 +13,16 @@ body {
   height: 100vh;
 }
 
-.headerC .headerContent .container {
+.headerContent .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
   padding: 4rem 4rem;
+}
+
+.headerContent-home {
+  cursor: pointer;
 }
 
 #headerContent-title {
@@ -28,6 +32,17 @@ body {
   text-decoration: none;
 }
 
+#headerContent-title:hover {
+  color: yellow;
+  transition: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#headerContent-title:not(hover) {
+  color: #222222;
+  transition: 0.3s;
+}
+
 #headerContent-subtitle {
   display: block;
   font-size: 1.2em;
@@ -35,16 +50,58 @@ body {
   text-decoration: none;
 }
 
+.headerContent .menu {
+  cursor: pointer;
+}
+
 .headerContent .menu a {
-  margin: 0 0.8em;
+  padding: 0.5rem;
+  margin: 0 0.5em;
   font-size: 1.4em;
   color: #222222;
   font-weight: bold;
   text-decoration: none;
 }
 
-.headerContent #menu-home {
+.headerContent .menu a {
+  border-radius: 0.6rem;
+  transition: 0.1s;
 }
+
+.headerContent .menu #home:hover {
+  outline: solid;
+  outline-width: 0.2rem;
+  outline-color: #1589af;
+}
+
+.headerContent .menu #tips:hover {
+  outline: solid;
+  outline-width: 0.2rem;
+  outline-color: #518731;
+}
+
+.headerContent .menu #about:hover {
+  outline: solid;
+  outline-width: 0.2rem;
+  outline-color: #cb611f;
+}
+
+.headerContent .menu a:not(hover) {
+  outline: solid;
+  outline-color: rgba(0, 0, 0, 0);
+  transition: 1s;
+}
+
+/* .headerContent .menu #tips:not(hover) {
+  outline: solid;
+  outline-color: rgba(0, 0, 0, 0);
+}
+
+.headerContent .menu #about:not(hover) {
+  outline: solid;
+  outline-color: rgba(0, 0, 0, 0);
+}
+*/
 
 .mainContent-img-wrapper img {
   vertical-align: middle;
