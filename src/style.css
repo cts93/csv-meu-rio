@@ -79,7 +79,8 @@ body {
   padding: 0 2rem;
   color: #eeeeee;
   border-left: solid;
-  border-color: #eeeeee;
+  border-width: 0.3rem;
+  border-color: #dddddd;
 }
 
 .second-text {
