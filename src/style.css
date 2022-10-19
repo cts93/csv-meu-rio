@@ -20,11 +20,6 @@ body {
   padding: 2rem 1rem;
 }
 
-.mainContent .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .mainContent-img-wrapper img {
   vertical-align: middle;
   width: 49.45vw;
@@ -50,6 +45,26 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #bc5819;
+}
+
+.text {
+  font-size: 1em;
+  margin: 0 4rem;
+  color: #eeeeee;
+}
+
+.text p {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.text-description {
+  margin-top: 1em;
+  padding-right: 10em;
+}
+
+.second-text {
+  margin: 0 5rem 0;
 }
 
 /* .mainContent-img-wrapper {
