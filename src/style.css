@@ -13,7 +13,7 @@ body {
   height: 100vh;
 }
 
-.headerContent .container {
+.headerC .headerContent .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,9 +104,19 @@ body {
   align-items: center;
   padding: 1.5rem;
   background-color: #dddddd;
+}
+
+#github-text {
+  text-decoration: none;
   color: #222222;
   font-size: 2rem;
   font-weight: bold;
+}
+
+#github-text:hover {
+  font-size: 2.2rem;
+  color: #1a8b34;
+  transition: 0.3s;
 }
 
 #github-logo {
@@ -138,6 +148,12 @@ body {
 
 #madeBy a {
   color: #222222;
+}
+
+#madeBy a:hover {
+  font-size: 1.5rem;
+  color: #0040ff;
+  transition: 0.3s;
 }
 
 #toTop {
