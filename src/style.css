@@ -171,8 +171,12 @@ body {
 }
 
 #github-text:hover {
-  font-size: 2.2rem;
   color: #1a8b34;
+  transition: 0.3s;
+}
+
+#github-text:not(hover) {
+  color: #222222;
   transition: 0.3s;
 }
 
