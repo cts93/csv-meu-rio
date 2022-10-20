@@ -89,19 +89,8 @@ body {
 .headerContent .menu a:not(hover) {
   outline: solid;
   outline-color: rgba(0, 0, 0, 0);
-  transition: 1s;
+  transition: 0.5s;
 }
-
-/* .headerContent .menu #tips:not(hover) {
-  outline: solid;
-  outline-color: rgba(0, 0, 0, 0);
-}
-
-.headerContent .menu #about:not(hover) {
-  outline: solid;
-  outline-color: rgba(0, 0, 0, 0);
-}
-*/
 
 .mainContent-img-wrapper img {
   vertical-align: middle;
@@ -176,7 +165,6 @@ body {
 }
 
 #github-text:not(hover) {
-  color: #222222;
   transition: 0.3s;
 }
 
@@ -214,6 +202,10 @@ body {
 #madeBy a:hover {
   font-size: 1.5rem;
   color: #0040ff;
+  transition: 0.3s;
+}
+
+#madeBy a:not(hover) {
   transition: 0.3s;
 }
 
