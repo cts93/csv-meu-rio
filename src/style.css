@@ -61,7 +61,6 @@ body {
 }
 
 .headerContent .menu a {
-  padding: 0.5rem;
   margin: 0 0.5em;
   font-size: 1.4em;
   color: #222222;
@@ -69,26 +68,28 @@ body {
   text-decoration: none;
 }
 
-.headerContent .menu a {
+.headerContent .menu #home,
+#tips,
+#about {
+  padding: 0.5rem;
+}
+
+.headerContent .menu a:hover {
+  outline: solid;
+  outline-width: 0.2rem;
   border-radius: 0.6rem;
   transition: 0.1s;
 }
 
 .headerContent .menu #home:hover {
-  outline: solid;
-  outline-width: 0.2rem;
   outline-color: #1589af;
 }
 
 .headerContent .menu #tips:hover {
-  outline: solid;
-  outline-width: 0.2rem;
   outline-color: #518731;
 }
 
 .headerContent .menu #about:hover {
-  outline: solid;
-  outline-width: 0.2rem;
   outline-color: #cb611f;
 }
 
@@ -280,12 +281,53 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* Hover properties for mobile devices turned off */
+  #headerContent-title:hover {
+    color: initial;
+  }
+
+  .headerContent .menu #home:hover,
+  .headerContent .menu #tips:hover,
+  .headerContent .menu #about:hover,
+  .headerContent .menu #home:not(hover),
+  .headerContent .menu #tips:not(hover),
+  .headerContent .menu #about:not(hover) {
+    outline: unset;
+  }
+
+  #github-text:hover {
+    color: initial;
+  }
+
+  #madeBy #linkedin:hover {
+    font-size: unset;
+  }
+
+  /* Applying mobile devices custom properties */
   #headerContent-subtitle {
     font-size: 1.8rem;
   }
 
   .headerContent .menu a {
     font-size: 1.9rem;
+  }
+
+  #github-logo {
+    margin: 0;
+  }
+
+  #github-text {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+  }
+
+  .footerContent-other,
+  #madeBy {
+    font-size: 2rem;
+  }
+
+  #madeBy #linkedin {
+    color: #0040ff;
   }
 }
 
