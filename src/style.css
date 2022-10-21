@@ -11,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header properties */
 .headerContent {
   background-image: url('copacabana-large.jpg');
   background-size: cover;
@@ -99,6 +100,7 @@ body {
   transition: 0.5s;
 }
 
+/* main properties */
 .mainContent .container {
   width: fit-content;
 }
@@ -150,6 +152,7 @@ body {
   margin-top: 0.5em;
 }
 
+/* footer properties */
 .footerContent-github {
   display: flex;
   justify-content: center;
@@ -219,6 +222,7 @@ body {
   color: #0040ff;
 }
 
+/* 4k screens custom properties */
 @media (min-width: 2560px) {
   .headerContent .container {
     padding: 8rem;
@@ -281,7 +285,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* Hover properties for mobile devices turned off */
+  /* Turning off hover properties for mobile devices */
   #headerContent-title:hover {
     color: initial;
   }
@@ -303,7 +307,7 @@ body {
     font-size: unset;
   }
 
-  /* Applying mobile devices custom properties */
+  /* Tablets and whatnot custom properties */
   #headerContent-subtitle {
     font-size: 1.8rem;
   }
@@ -331,6 +335,7 @@ body {
   }
 }
 
+/* Smartphones custom properties */
 @media (max-width: 426px) {
   .headerContent .container {
     flex-direction: column;
