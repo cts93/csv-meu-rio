@@ -205,7 +205,7 @@ body {
   color: #222222;
 }
 
-#madeBy a:hover {
+#madeBy #linkedin:hover {
   font-size: 1.5rem;
   color: #0040ff;
   transition: 0.3s;
