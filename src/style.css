@@ -132,7 +132,7 @@ body {
 .text {
   font-size: 2.1em;
   margin: 3rem;
-  padding: 2rem;
+  padding: 2rem 0.5rem 2rem 2rem;
   color: #eeeeee;
   border-left: solid;
   border-width: 0.3rem;
@@ -147,7 +147,7 @@ body {
 
 .text-description {
   margin-top: 2em;
-  padding-right: 12em;
+  /* padding-right: 1em; */
 }
 
 .footerContent-github {
@@ -224,13 +224,18 @@ body {
     flex-direction: column;
   }
 
+  .headerContent-home {
+    margin-left: 4rem;
+    text-align: center;
+  }
+
   #headerContent-title {
-    font-size: 6rem;
+    font-size: 7rem;
     color: yellow;
   }
 
   #headerContent-subtitle {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .headerContent .menu {
@@ -241,11 +246,36 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
   }
 
   .headerContent .menu #home {
-    background-color: #1a8b34;
+    background-color: #1589af;
+  }
+
+  .headerContent .menu #tips {
+    background-color: #518731;
+  }
+
+  .headerContent .menu #about {
+    background-color: #cb611f;
+  }
+
+  .mainContent .text {
+    font-size: 2.5em;
+  }
+
+  #github-text {
+    font-size: 2.5rem;
+  }
+
+  .footerContent-other,
+  #madeBy {
+    font-size: 2.2rem;
+  }
+
+  #madeBy #linkedin {
+    color: #0040ff;
   }
 }
