@@ -146,8 +146,7 @@ body {
 }
 
 .text-description {
-  margin-top: 2em;
-  /* padding-right: 1em; */
+  margin-top: 0.5em;
 }
 
 .footerContent-github {
@@ -219,6 +218,77 @@ body {
   color: #0040ff;
 }
 
+@media (min-width: 2560px) {
+  .headerContent .container {
+    padding: 8rem;
+  }
+
+  #headerContent-title {
+    font-size: 8rem;
+  }
+
+  #headerContent-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 2.5rem;
+  }
+
+  .mainContent .text p {
+    font-size: 6rem;
+  }
+
+  .mainContent .text {
+    font-size: 3em;
+  }
+
+  .footerContent-github {
+    padding: 3rem;
+  }
+
+  #github-text {
+    font-size: 3.6rem;
+  }
+
+  .footerContent-other,
+  #madeBy {
+    font-size: 2.3rem;
+  }
+
+  .footerContent-other #madeBy {
+    padding: 2rem 0;
+  }
+
+  .footerContent-other #year {
+    padding: 0.5rem 0 2rem;
+  }
+
+  .footerContent-other #toTop {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #headerContent-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #headerContent-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 1.9rem;
+  }
+}
+
 @media (max-width: 426px) {
   .headerContent .container {
     flex-direction: column;
@@ -241,7 +311,7 @@ body {
   }
 
   .headerContent .menu {
-    padding: 2rem 0;
+    padding: 0.5rem 0 2rem;
   }
 
   .headerContent .menu a {
@@ -249,7 +319,7 @@ body {
     margin: 0;
     padding: 1.5rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     border-radius: 0;
   }
 
