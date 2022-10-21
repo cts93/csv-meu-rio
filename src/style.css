@@ -67,6 +67,7 @@ body {
   color: #222222;
   font-weight: bold;
   text-decoration: none;
+  border-radius: 0.6rem;
 }
 
 #home,
@@ -78,7 +79,6 @@ body {
 .headerContent .menu a:hover {
   outline: solid;
   outline-width: 0.2rem;
-  border-radius: 0.6rem;
   transition: 0.1s;
 }
 
@@ -166,6 +166,7 @@ body {
   color: #222222;
   font-size: 2rem;
   font-weight: bold;
+  padding: 1rem;
 }
 
 #github-text:hover {
@@ -186,6 +187,10 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 1.1rem;
+}
+
+#linkedin {
+  padding: 0.5rem;
 }
 
 #madeBy,
@@ -220,6 +225,27 @@ body {
 
 #toTop {
   color: #0040ff;
+  padding: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+#toTop:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+#toTop:hover::before {
+  content: '🠙 ';
+  font-size: 1.5rem;
+}
+
+#toTop:hover::after {
+  content: ' 🠙';
+  font-size: 1.5rem;
+}
+
+#toTop:not(hover) {
+  transition: 0.2s;
 }
 
 /* 4k screens custom properties */
