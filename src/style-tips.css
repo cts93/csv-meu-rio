@@ -6,3 +6,28 @@
   width: auto;
   height: 100vh;
 }
+
+.mainContent .text-box {
+  font-size: 2.1em;
+  padding: 2rem 0.5rem 2rem 2rem;
+  color: #eeeeee;
+}
+
+.mainContent .firstPlace {
+  background-color: #4f733a;
+  flex-wrap: wrap;
+}
+
+#content-container #one {
+  display: flex;
+}
+
+#one-img-wrapper img {
+  width: 100vw;
+  height: auto;
+}
+
+/* #two-img-wrapper img {
+  width: 100%;
+  height: auto;
+} */

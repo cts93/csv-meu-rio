@@ -112,28 +112,29 @@ body {
   height: auto;
 }
 
-.firstPlace {
+.mainContent .firstPlace {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   background-color: #1f85a7;
 }
 
-.secondPlace {
+.mainContent .secondPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #4f733a;
 }
 
-.thirdPlace {
+.mainContent .thirdPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #bc5819;
 }
 
-.text {
+.mainContent .text {
   font-size: 2.1em;
   margin: 3rem;
   padding: 2rem 0.5rem 2rem 2rem;
@@ -143,13 +144,13 @@ body {
   border-color: #dddddd;
 }
 
-.text p {
+.mainContent .text p {
   font-size: 3.8rem;
   font-weight: bold;
   line-break: loose;
 }
 
-.text-description {
+.mainContent .text-description {
   margin-top: 0.5em;
 }
 
