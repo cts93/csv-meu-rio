@@ -32,7 +32,7 @@ body {
 }
 
 #headerContent-title {
-  font-size: 4em;
+  font-size: 4rem;
   color: #222222;
   font-weight: 900;
   text-decoration: none;
@@ -98,6 +98,10 @@ body {
   transition: 0.5s;
 }
 
+.mainContent .container {
+  width: fit-content;
+}
+
 .mainContent-img-wrapper img {
   vertical-align: middle;
   width: fit-content;
@@ -126,17 +130,13 @@ body {
 }
 
 .text {
-  font-size: 1.5em;
-  margin: 0 3rem;
-  padding: 0 2rem;
+  font-size: 2.1em;
+  margin: 3rem;
+  padding: 2rem;
   color: #eeeeee;
   border-left: solid;
   border-width: 0.3rem;
   border-color: #dddddd;
-}
-
-.second-text {
-  margin: 0 3rem 0;
 }
 
 .text p {
@@ -217,4 +217,35 @@ body {
 
 #toTop {
   color: #0040ff;
+}
+
+@media (max-width: 426px) {
+  .headerContent .container {
+    flex-direction: column;
+  }
+
+  #headerContent-title {
+    font-size: 6rem;
+    color: yellow;
+  }
+
+  #headerContent-subtitle {
+    font-size: 2rem;
+  }
+
+  .headerContent .menu {
+    padding: 2rem;
+  }
+
+  .headerContent .menu a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .headerContent .menu #home {
+    background-color: #1a8b34;
+  }
 }
