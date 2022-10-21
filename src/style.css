@@ -12,7 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header properties */
+/* header properties */
 .headerContent {
   background-image: url('copacabana-large.jpg');
   background-size: cover;
@@ -84,15 +84,15 @@ body {
 }
 
 #home:hover {
-  outline-color: #1589af;
+  outline-color: #008dbc;
 }
 
 #tips:hover {
-  outline-color: #518731;
+  outline-color: #489d17;
 }
 
 #about:hover {
-  outline-color: #cb611f;
+  outline-color: #d25000;
 }
 
 .headerContent .menu a:not(hover) {
@@ -398,15 +398,15 @@ body {
   }
 
   #home {
-    background-color: #1589afc5;
+    background-color: #008dbcc5;
   }
 
   #tips {
-    background-color: #518731c5;
+    background-color: #489d17c5;
   }
 
   #about {
-    background-color: #cb611fc5;
+    background-color: #d25000c5;
   }
 
   .mainContent .firstPlace {
