@@ -68,7 +68,7 @@ body {
   text-decoration: none;
 }
 
-.headerContent .menu #home,
+#home,
 #tips,
 #about {
   padding: 0.5rem;
@@ -81,15 +81,15 @@ body {
   transition: 0.1s;
 }
 
-.headerContent .menu #home:hover {
+#home:hover {
   outline-color: #1589af;
 }
 
-.headerContent .menu #tips:hover {
+#tips:hover {
   outline-color: #518731;
 }
 
-.headerContent .menu #about:hover {
+#about:hover {
   outline-color: #cb611f;
 }
 
@@ -257,15 +257,15 @@ body {
     font-size: 2.3rem;
   }
 
-  .footerContent-other #madeBy {
+  #madeBy {
     padding: 2rem 0;
   }
 
-  .footerContent-other #year {
+  #year {
     padding: 0.5rem 0 2rem;
   }
 
-  .footerContent-other #toTop {
+  #toTop {
     padding-bottom: 2rem;
   }
 }
@@ -286,12 +286,12 @@ body {
     color: initial;
   }
 
-  .headerContent .menu #home:hover,
-  .headerContent .menu #tips:hover,
-  .headerContent .menu #about:hover,
-  .headerContent .menu #home:not(hover),
-  .headerContent .menu #tips:not(hover),
-  .headerContent .menu #about:not(hover) {
+  #home:hover,
+  #tips:hover,
+  #about:hover,
+  #home:not(hover),
+  #tips:not(hover),
+  #about:not(hover) {
     outline: unset;
   }
 
@@ -365,15 +365,15 @@ body {
     border-radius: 0;
   }
 
-  .headerContent .menu #home {
+  #home {
     background-color: #1589afc5;
   }
 
-  .headerContent .menu #tips {
+  #tips {
     background-color: #518731c5;
   }
 
-  .headerContent .menu #about {
+  #about {
     background-color: #cb611fc5;
   }
 
