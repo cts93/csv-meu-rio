@@ -1,6 +1,11 @@
 /* font-family: 'Merriweather', serif;
 */
 
+html {
+  width: fit-content;
+  height: auto;
+}
+
 body {
   background-color: #eeeeee;
   font-family: 'Roboto', sans-serif;
@@ -10,6 +15,7 @@ body {
   background-image: url('copacabana-large.jpg');
   background-size: cover;
   position: relative;
+  width: auto;
   height: 100vh;
 }
 
@@ -94,7 +100,7 @@ body {
 
 .mainContent-img-wrapper img {
   vertical-align: middle;
-  width: 49.45vw;
+  width: fit-content;
   height: auto;
 }
 
@@ -134,13 +140,13 @@ body {
 }
 
 .text p {
-  font-size: 3.2em;
+  font-size: 3.8rem;
   font-weight: bold;
   line-break: loose;
 }
 
 .text-description {
-  margin-top: 1em;
+  margin-top: 2em;
   padding-right: 12em;
 }
 
