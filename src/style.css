@@ -222,10 +222,12 @@ body {
 @media (max-width: 426px) {
   .headerContent .container {
     flex-direction: column;
+    align-items: unset;
+    padding: 4rem 0;
   }
 
   .headerContent-home {
-    margin-left: 4rem;
+    margin-left: 2rem;
     text-align: center;
   }
 
@@ -239,40 +241,66 @@ body {
   }
 
   .headerContent .menu {
-    padding: 2rem;
+    padding: 2rem 0;
   }
 
   .headerContent .menu a {
     display: block;
-    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 3rem;
+    border-radius: 0;
   }
 
   .headerContent .menu #home {
-    background-color: #1589af;
+    background-color: #1589afc5;
   }
 
   .headerContent .menu #tips {
-    background-color: #518731;
+    background-color: #518731c5;
   }
 
   .headerContent .menu #about {
-    background-color: #cb611f;
+    background-color: #cb611fc5;
+  }
+
+  .mainContent .firstPlace {
+    flex-direction: column;
+  }
+
+  .mainContent .secondPlace {
+    flex-direction: column;
+  }
+
+  .mainContent .secondPlace .text {
+    order: -1;
+  }
+
+  .mainContent .thirdPlace {
+    flex-direction: column;
+  }
+
+  .mainContent-img-wrapper {
+    width: 100%;
   }
 
   .mainContent .text {
     font-size: 2.5em;
   }
 
+  #github-logo {
+    margin: 0;
+  }
+
   #github-text {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    margin-right: 1rem;
   }
 
   .footerContent-other,
   #madeBy {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   #madeBy #linkedin {
