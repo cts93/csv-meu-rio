@@ -361,6 +361,19 @@ body {
   #madeBy #linkedin {
     color: #0040ff;
   }
+
+  #toTop:hover {
+    color: #0040ff;
+  }
+
+  #toTop:hover::before {
+    content: none;
+  }
+
+  #toTop:hover::after {
+    content: none;
+    font-size: 1.5rem;
+  }
 }
 
 /* Smartphones custom properties */
