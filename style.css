@@ -428,7 +428,7 @@ body {
   }
 
   .mainContent .secondPlace {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .mainContent .thirdPlace {
