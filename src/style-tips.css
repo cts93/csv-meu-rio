@@ -34,3 +34,56 @@
   background-color: #696f16;
   flex-wrap: wrap;
 }
+
+.mainContent .fourthPlace {
+  background-color: #9f7513;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  #headerContent-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerContent .container {
+    padding: 2.1rem;
+  }
+
+  #headerContent-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .headerContent .container {
+    padding: 4rem 0;
+  }
+
+  .headerContent-home {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  #headerContent-title {
+    font-size: 7rem;
+  }
+
+  #headerContent-subtitle {
+    font-size: 3rem;
+  }
+
+  .headerContent .menu a {
+    font-size: 3rem;
+  }
+}
