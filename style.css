@@ -2,7 +2,7 @@
 */
 
 html {
-  width: auto;
+  width: fit-content;
   height: auto;
   scroll-behavior: smooth;
 }
