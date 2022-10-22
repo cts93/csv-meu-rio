@@ -1,373 +1,50 @@
-/* font-family: 'Merriweather', serif;
-*/
-
-html {
-  width: fit-content;
-  height: auto;
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #eeeeee;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* header properties */
+/* tips.html header properties */
 .headerContent {
-  background-image: url('copacabana-large.jpg');
+  background-image: url('rio.jpg');
   background-size: cover;
   position: relative;
   width: auto;
   height: 100vh;
 }
 
-.headerContent .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: auto;
-  padding: 4rem 4rem;
-}
-
-.headerContent-home {
-  cursor: pointer;
-}
-
-#headerContent-title {
-  font-size: 4rem;
-  color: #222222;
-  font-weight: 900;
-  text-decoration: none;
-}
-
-#headerContent-title:hover {
-  color: yellow;
-  transition: 0.3s;
-  transition-duration: 0.3s;
-}
-
-#headerContent-title:not(hover) {
-  color: #222222;
-  transition: 0.3s;
-}
-
-#headerContent-subtitle {
-  display: block;
-  font-size: 1.2em;
-  color: #222222;
-  text-decoration: none;
-}
-
-.headerContent .menu {
-  cursor: pointer;
-}
-
-.headerContent .menu a {
-  margin: 0 0.5em;
-  font-size: 1.4em;
-  color: #222222;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0.6rem;
-}
-
-#home,
-#tips,
-#about {
-  padding: 0.5rem;
-}
-
-.headerContent .menu a:hover {
-  outline: solid;
-  outline-width: 0.2rem;
-  transition: 0.1s;
-}
-
-#home:hover {
-  outline-color: #008dbc;
-}
-
-#tips:hover {
-  outline-color: #489d17;
-}
-
-#about:hover {
-  outline-color: #d25000;
-}
-
-.headerContent .menu a:not(hover) {
-  outline: solid;
-  outline-color: rgba(0, 0, 0, 0);
-  transition: 0.5s;
-}
-
-/* main properties */
-.mainContent .container {
-  width: fit-content;
-}
-
-.mainContent-img-wrapper img {
-  vertical-align: middle;
-  width: fit-content;
-  height: auto;
-}
-
-.mainContent .firstPlace {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1f85a7;
-}
-
-.mainContent .secondPlace {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #4f733a;
-}
-
-.mainContent .thirdPlace {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #bc5819;
-}
-
-.mainContent .text {
+.mainContent .text-box {
   font-size: 2.1em;
-  margin: 3rem;
-  padding: 2rem 0.5rem 2rem 2rem;
+  line-height: 3rem;
+  padding: 2rem 8rem;
   color: #eeeeee;
-  border-left: solid;
-  border-width: 0.3rem;
-  border-color: #dddddd;
 }
 
-.mainContent .text p {
-  font-size: 3.8rem;
-  font-weight: bold;
-  line-break: loose;
-}
-
-.mainContent .text-description {
-  margin-top: 0.5em;
-}
-
-/* footer properties */
-.footerContent-github {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  background-color: #dddddd;
-}
-
-#github-text {
-  text-decoration: none;
-  color: #222222;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1rem;
-}
-
-#github-text:hover {
-  color: #1a8b34;
-  transition: 0.3s;
-}
-
-#github-text:not(hover) {
-  transition: 0.3s;
-}
-
-#github-logo {
-  margin: 0 2rem;
-}
-
-.footerContent-other {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.1rem;
-}
-
-#linkedin {
-  padding: 0.5rem;
-}
-
-#madeBy,
-#year,
-#toTop {
-  padding-bottom: 1rem;
-}
-
-#madeBy a,
-#toTop {
-  text-decoration: none;
-}
-
-#madeBy {
-  padding-top: 1rem;
-  font-size: 1.3rem;
-}
-
-#madeBy a {
-  color: #222222;
-}
-
-#madeBy #linkedin:hover {
-  font-size: 1.5rem;
-  color: #0040ff;
-  transition: 0.3s;
-}
-
-#madeBy a:not(hover) {
-  transition: 0.3s;
-}
-
-#toTop {
-  color: #0040ff;
-  padding: 1rem;
-  margin: 0.5rem 0 1rem;
-}
-
-#toTop:hover {
-  color: red;
-  transition: 0.2s;
-}
-
-#toTop:hover::before {
-  content: '🠙 ';
-  font-size: 1.5rem;
-}
-
-#toTop:hover::after {
-  content: ' 🠙';
-  font-size: 1.5rem;
-}
-
-#toTop:not(hover) {
-  transition: 0.2s;
-}
-
-/* 4k screens custom properties */
-@media (min-width: 2560px) {
-  .headerContent .container {
-    padding: 8rem;
-  }
-
-  #headerContent-title {
-    font-size: 8rem;
-  }
-
-  #headerContent-subtitle {
-    font-size: 2.5rem;
-  }
-
-  .headerContent .menu a {
-    font-size: 2.5rem;
-  }
-
-  .mainContent .text p {
-    font-size: 6rem;
-  }
-
-  .mainContent .text {
-    font-size: 3em;
-  }
-
-  .footerContent-github {
-    padding: 3rem;
-  }
-
-  #github-text {
-    font-size: 3.6rem;
-  }
-
-  .footerContent-other,
-  #madeBy {
-    font-size: 2.3rem;
-  }
-
-  #madeBy {
-    padding: 2rem 0;
-  }
-
-  #year {
-    padding: 0.5rem 0 2rem;
-  }
-
-  #toTop {
-    padding-bottom: 2rem;
-  }
+.mainContent .content-about {
+  background-color: #4f733a;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1024px) {
   #headerContent-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .headerContent .menu a {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 768px) {
-  /* Turning off hover properties for mobile devices */
-  #headerContent-title:hover {
-    color: initial;
+  .headerContent .container {
+    padding: 2.1rem;
   }
 
-  #home:hover,
-  #tips:hover,
-  #about:hover,
-  #home:not(hover),
-  #tips:not(hover),
-  #about:not(hover) {
-    outline: unset;
-  }
-
-  #github-text:hover {
-    color: initial;
-  }
-
-  #madeBy #linkedin:hover {
-    font-size: unset;
-  }
-
-  /* Tablets and whatnot custom properties */
   #headerContent-subtitle {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .headerContent .menu a {
-    font-size: 1.9rem;
-  }
-
-  #github-logo {
-    margin: 0;
-  }
-
-  #github-text {
-    font-size: 2.5rem;
-    margin-right: 2rem;
-  }
-
-  .footerContent-other,
-  #madeBy {
-    font-size: 2rem;
-  }
-
-  #madeBy #linkedin {
-    color: #0040ff;
+    font-size: 1.4rem;
   }
 }
 
-/* Smartphones custom properties */
 @media (max-width: 426px) {
   .headerContent .container {
-    flex-direction: column;
-    align-items: unset;
     padding: 4rem 0;
   }
 
@@ -378,73 +55,13 @@ body {
 
   #headerContent-title {
     font-size: 7rem;
-    color: yellow;
   }
 
   #headerContent-subtitle {
     font-size: 3rem;
   }
 
-  .headerContent .menu {
-    padding: 0.5rem 0 2rem;
-  }
-
   .headerContent .menu a {
-    display: block;
-    margin: 0;
-    padding: 1.5rem;
-    text-align: center;
     font-size: 3rem;
-    border-radius: 0;
-  }
-
-  #home {
-    background-color: #008dbcc5;
-  }
-
-  #tips {
-    background-color: #489d17c5;
-  }
-
-  #about {
-    background-color: #d25000c5;
-  }
-
-  .mainContent .firstPlace {
-    flex-direction: column;
-  }
-
-  .mainContent .secondPlace {
-    flex-direction: column;
-  }
-
-  .mainContent .thirdPlace {
-    flex-direction: column;
-  }
-
-  .mainContent-img-wrapper {
-    width: 100%;
-  }
-
-  .mainContent .text {
-    font-size: 2.5em;
-  }
-
-  #github-logo {
-    margin: 0;
-  }
-
-  #github-text {
-    font-size: 1.8rem;
-    margin-right: 1rem;
-  }
-
-  .footerContent-other,
-  #madeBy {
-    font-size: 2rem;
-  }
-
-  #madeBy #linkedin {
-    color: #0040ff;
   }
 }
