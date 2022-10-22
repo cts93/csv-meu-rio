@@ -1,13 +1,27 @@
-/* tips.html header properties */
+html {
+  width: auto;
+}
+
+/* about.html header properties */
 .headerContent {
-  background-image: url('rio.jpg');
+  background-image: url('botanical-keyboard.jpg');
   background-size: cover;
   position: relative;
   width: auto;
-  height: 100vh;
+  height: auto;
+}
+
+#headerContent-title,
+#headerContent-subtitle {
+  color: #060606;
+}
+
+.headerContent .menu a {
+  color: #060606;
 }
 
 .mainContent .text-box {
+  display: inline;
   font-size: 2.1em;
   line-height: 3rem;
   padding: 2rem 8rem;
@@ -16,7 +30,16 @@
 
 .mainContent .content-about {
   background-color: #4f733a;
-  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+#profile-img-wrapper {
+  padding: 1rem;
+}
+
+#profile-img-wrapper img {
+  width: 300px;
+  height: auto;
 }
 
 @media (max-width: 1024px) {
