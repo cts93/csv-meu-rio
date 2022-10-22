@@ -1,3 +1,7 @@
+html {
+  width: auto;
+}
+
 /* about.html header properties */
 .headerContent {
   background-image: url('botanical-keyboard.jpg');
