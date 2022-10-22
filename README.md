@@ -16,5 +16,3 @@ Meu Rio se trata de um site simples, sem interação JS, com foco em divulgar de
 Uma vez pronto, estarei upando o projeto no Vercel para teste prático.
 
 ## **Data de entrega: ~~22/10/2022~~ 21/10/2022**
-
-_Obs.: Após a data de entrega, nenhuma alteração será feita. Assim, você pode ver minha evolução clara através de uma timeline concisa de todos os meus projetos._
