@@ -23,12 +23,13 @@
   align-items: center;
 }
 
-#one-img-wrapper img {
-  width: 100vw;
-  height: auto;
+.three {
+  display: flex;
+  align-items: center;
 }
 
-/* #two-img-wrapper img {
+.four img {
   width: 100%;
   height: auto;
-} */
+  padding-top: 2rem;
+}
