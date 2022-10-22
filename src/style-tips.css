@@ -29,3 +29,8 @@
   background-color: #1f85a7;
   flex-wrap: wrap;
 }
+
+.mainContent .thirdPlace {
+  background-color: #696f16;
+  flex-wrap: wrap;
+}
