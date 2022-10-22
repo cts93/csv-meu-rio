@@ -86,4 +86,8 @@
   .headerContent .menu a {
     font-size: 3rem;
   }
+
+  .mainContent .secondPlace {
+    flex-direction: column;
+  }
 }
