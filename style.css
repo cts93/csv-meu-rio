@@ -3,6 +3,7 @@
 
 html {
   width: fit-content;
+  width: auto;
   height: auto;
   scroll-behavior: smooth;
 }
