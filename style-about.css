@@ -4,7 +4,7 @@ html {
 
 /* about.html header properties */
 .headerContent {
-  background-image: url('botanical-keyboard.jpg');
+  background-image: url('images/botanical-keyboard.jpg');
   background-size: cover;
   position: relative;
   width: auto;

@@ -14,7 +14,7 @@ body {
 
 /* header properties */
 .headerContent {
-  background-image: url('copacabana-large.jpg');
+  background-image: url('images/copacabana-large.jpg');
   background-size: cover;
   position: relative;
   width: auto;
