@@ -1,6 +1,6 @@
 # **csv-meu-rio**
 
-Meu Rio se trata de um site simples, sem interação JS, com foco em divulgar de forma apresentável meus lugares favoritos da cidade do Rio de Janeiro e seus arredores.
+Meu Rio se trata de um site com foco em divulgar de forma apresentável meus lugares favoritos da cidade do Rio de Janeiro e seus arredores.
 
 ## **Tecnologias escolhidas:**
 
