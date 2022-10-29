@@ -1,4 +1,5 @@
 html {
+  width: fit-content;
   width: auto;
   scroll-behavior: smooth;
 }
