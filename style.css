@@ -390,12 +390,12 @@ body {
   }
 
   #headerContent-title {
-    font-size: 7rem;
+    font-size: 5rem;
     color: yellow;
   }
 
   #headerContent-subtitle {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .headerContent .menu {
@@ -407,7 +407,7 @@ body {
     margin: 0;
     padding: 1.5rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     border-radius: 0;
   }
 
