@@ -1,5 +1,4 @@
 html {
-  width: fit-content;
   width: auto;
   scroll-behavior: smooth;
 }
@@ -95,5 +94,14 @@ html {
 
   .mainContent .secondPlace {
     flex-direction: column;
+  }
+
+  .first-text {
+    font-size: 2rem;
+  }
+
+  .tips-content-img-wrapper img {
+    width: fit-content;
+    width: auto;
   }
 }
