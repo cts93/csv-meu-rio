@@ -9,6 +9,7 @@ html {
 body {
   background-color: #eeeeee;
   font-family: 'Roboto', sans-serif;
+  width: fit-content;
 }
 
 /* header properties */
@@ -399,6 +400,7 @@ body {
 
   .headerContent .menu {
     padding: 0.5rem 0 2rem;
+    vertical-align: middle;
   }
 
   .headerContent .menu a {
@@ -435,7 +437,7 @@ body {
   }
 
   .mainContent-img-wrapper {
-    width: 100%;
+    width: fit-content;
   }
 
   .mainContent .text {
