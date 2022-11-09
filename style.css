@@ -376,7 +376,7 @@ body {
 }
 
 /* Smartphones custom properties */
-@media (max-width: 426px) {
+@media (max-width: 540px) {
   .headerContent .container {
     flex-direction: column;
     align-items: unset;
