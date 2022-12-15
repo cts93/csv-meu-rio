@@ -134,7 +134,7 @@ body {
 }
 
 .mainContent .text {
-  font-size: 2.1em;
+  font-size: 2em;
   margin: 3rem;
   padding: 2rem 0.5rem 2rem 2rem;
   color: #eeeeee;
@@ -144,7 +144,7 @@ body {
 }
 
 .mainContent .text p {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   font-weight: bold;
   line-break: loose;
 }
